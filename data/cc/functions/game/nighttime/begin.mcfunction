@@ -1,0 +1,1 @@
+tellraw @a[x=0] ["",{"text":"The night falls and darkness approaches.","italic":true,"color":"gray"}]

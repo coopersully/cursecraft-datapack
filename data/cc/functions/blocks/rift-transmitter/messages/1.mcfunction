@@ -1,0 +1,2 @@
+tellraw @a[distance=20..] ["",{"text":"An interdimensional link is being established.","color":"gray","italic":"true"}]
+tellraw @a[distance=..20] ["",{"text":"The portal frame is being prepared; defend it while it charges.","color":"dark_gray"}]

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "target": {
+              "tag": "minecraft:base_stone_overworld",
+              "predicate_type": "minecraft:tag_match"
+            },
+            "state": {
+              "Name": "minecraft:petrified_oak_slab",
+			  "Properties": {
+				"type": "double",
+				"waterlogged": "false"
+				}
+            },
+            "size": 3
+          },
+          "type": "minecraft:no_surface_ore"
+        },
+        "decorator": {
+          "config": {
+            "baseline": 16,
+            "spread": 8
+          },
+          "type": "minecraft:depth_average"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {},
+      "type": "minecraft:square"
+    }
+  },
+  "type": "minecraft:decorated"
+}

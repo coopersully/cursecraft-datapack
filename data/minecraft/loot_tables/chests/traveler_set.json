@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{travelerSet:1b,display:{Name:'[{\"text\":\"Traveler\\'s Sword\",\"italic\":false}]'},Enchantments:[{id:bane_of_arthropods,lvl:2},{id:smite,lvl:2},{id:unbreaking,lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{travelerSet:1b,display:{Name:'[{\"text\":\"Traveler\\'s Pickaxe\",\"italic\":false}]'},Enchantments:[{id:efficiency,lvl:1},{id:unbreaking,lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{travelerSet:1b,display:{Name:'[{\"text\":\"Traveler\\'s Axe\",\"italic\":false}]'},Enchantments:[{id:efficiency,lvl:1},{id:knockback,lvl:1},{id:sharpness,lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{travelerSet:1b,display:{Name:'[{\"text\":\"Traveler\\'s Shovel\",\"italic\":false}]'},Enchantments:[{id:efficiency,lvl:1},{id:fortune,lvl:2},{id:unbreaking,lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{travelerSet:1b,display:{Name:'[{\"text\":\"Traveler\\'s Hoe\",\"italic\":false}]'},Enchantments:[{id:unbreaking,lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+tellraw @a[distance=..20] ["",{"text":"Interdimensional link 90% established.","color":"dark_gray"}]

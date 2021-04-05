@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cc:ancient-forge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cc:blocks/ancient-forge/item"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cc:advanced-workbench"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cc:blocks/advanced-workbench/item"
+    }
+}

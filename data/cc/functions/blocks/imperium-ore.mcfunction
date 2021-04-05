@@ -1,0 +1,1 @@
+execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 minecraft:petrified_oak_slab[type=double] replace minecraft:petrified_oak_slab

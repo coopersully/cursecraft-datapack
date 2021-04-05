@@ -1,0 +1,10 @@
+function cc:items/diaries/main
+function cc:items/makeshift-tools
+function cc:items/iron-ring
+function cc:items/charged-ender-pearl
+function cc:items/emerald-apple
+function cc:items/enchanted-emerald-apple
+function cc:items/essence-of-the-universe/check
+function cc:items/gadget/ore-radar
+function cc:items/gadget/item-magnet
+function cc:items/gadget/exp-magnet

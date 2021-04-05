@@ -1,0 +1,5 @@
+execute as @e[tag=ancientForge] at @s if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,tag:{machineBlock:1b},Count:1b},{Slot:1b,tag:{essenceOfInfinity:1b},Count:1b},{Slot:2b,tag:{machineBlock:1b},Count:1b},{Slot:3b,tag:{essenceOfTheUniverse:1b},Count:1b},{Slot:4b,tag:{mechanicalFocus:1b},Count:1b},{Slot:5b,tag:{essenceOfTheUniverse:1b},Count:1b},{Slot:6b,tag:{machineBlock:1b},Count:1b},{Slot:7b,tag:{infinitePowerCell:1b},Count:1b},{Slot:8b,tag:{machineBlock:1b},Count:1b}]} run tag @s add NPC
+execute at @e[tag=ancientForge,tag=NPC] run data merge entity @e[tag=afROTA,distance=..2,limit=1,sort=nearest] {Glowing:1b}
+execute at @e[tag=ancientForge,tag=NPC] run setblock ~ ~ ~ minecraft:bedrock
+execute at @e[tag=ancientForge,tag=NPC,tag=!sound] run playsound minecraft:cursecraft.machine-start player @a ~ ~ ~ 4 1
+execute as @e[tag=ancientForge,tag=NPC,tag=!sound] run tag @s add sound

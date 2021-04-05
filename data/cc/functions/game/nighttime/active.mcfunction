@@ -1,0 +1,7 @@
+execute as @e[x=0,type=#cc:hostile] at @s unless entity @e[tag=safetyNetS,distance=..5] unless entity @e[tag=safetyNetM,distance=..10] unless entity @e[tag=safetyNetL,distance=..15] unless entity @e[tag=safetyNetXL,distance=..20] run tag @s add strengthened
+execute as @e[x=0,type=#cc:hostile] at @s unless entity @e[tag=safetyNetS,distance=..5] unless entity @e[tag=safetyNetM,distance=..10] unless entity @e[tag=safetyNetL,distance=..15] unless entity @e[tag=safetyNetXL,distance=..20] run effect give @s minecraft:strength 1 2 true
+execute as @e[x=0,type=#cc:hostile] at @s unless entity @e[tag=safetyNetS,distance=..5] unless entity @e[tag=safetyNetM,distance=..10] unless entity @e[tag=safetyNetL,distance=..15] unless entity @e[tag=safetyNetXL,distance=..20] run effect give @s minecraft:resistance 1 2 true
+execute as @e[x=0,tag=memory] at @s if entity @e[tag=safetyNetS,distance=..5] run function cc:game/nighttime/dissolve
+execute as @e[x=0,tag=memory] at @s if entity @e[tag=safetyNetM,distance=..10] run function cc:game/nighttime/dissolve
+execute as @e[x=0,tag=memory] at @s if entity @e[tag=safetyNetL,distance=..15] run function cc:game/nighttime/dissolve
+execute as @e[x=0,tag=memory] at @s if entity @e[tag=safetyNetXL,distance=..20] run function cc:game/nighttime/dissolve

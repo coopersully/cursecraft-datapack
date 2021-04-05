@@ -1,0 +1,24 @@
+{
+  "surface_builder": "minecraft:nope",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 8224125,
+    "fog_color": 4210752,
+    "water_color": 7667712,
+    "water_fog_color": 7667712,
+    "grass_color": 3881787,
+    "foliage_color": 3881787
+  },
+  "starts": [
+    "minecraft:nether_fossil"
+  ],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
