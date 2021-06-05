@@ -1,0 +1,1 @@
+give @s minecraft:command_block{CustomModelData:6607,essence:1b,malformed_essence:1b,display:{Name:'[{"text":"Malformed Essence","color":"aqua","italic":"false"}]'}} 1

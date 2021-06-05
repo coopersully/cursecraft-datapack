@@ -1,0 +1,3 @@
+summon vex ~ ~ ~ {Silent:1b,CustomNameVisible:0b,DeathLootTable:"cc:entities/passive_wisp",Health:10f,Team:"Cursecraft",Tags:["cc_entity","passive_wisp"],Passengers:[{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["cc_entity","passive_wisp"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:6601}}]}],CustomName:'{"text":"Passive Wisp"}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:20000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:10}]}
+spreadplayers ~ ~ 0 1 false @e[type=minecraft:vex,tag=passive_wisp,distance=..1]
+tp @s ~ ~-500 ~

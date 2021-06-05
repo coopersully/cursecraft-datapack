@@ -1,0 +1,3 @@
+summon vex ~ ~ ~ {Silent:1b,DeathLootTable:"cc:entities/mysterious_orb",Health:20f,Team:"Cursecraft",Tags:["cc_entity","mysterious_orb"],CustomName:'{"text":"Mysterious Orb"}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:20000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:20}]}
+spreadplayers ~ ~ 0 50 false @e[type=minecraft:vex,tag=mysterious_orb,distance=..1]
+scoreboard players set mysterious_orb cc.spawner 0

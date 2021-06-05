@@ -1,2 +1,0 @@
-execute in minecraft:the_nether at @e[type=minecraft:skeleton,x=0] run summon minecraft:wither_skeleton ~ ~ ~
-execute in minecraft:the_nether at @e[type=minecraft:skeleton,x=0] run teleport @s ~ -500 ~

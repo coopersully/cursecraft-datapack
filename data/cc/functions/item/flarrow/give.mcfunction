@@ -1,0 +1,1 @@
+give @s minecraft:tipped_arrow{flarrow:1b,HideFlags:32,CustomPotionColor:16102223,display:{Name:'[{"text":"Flarrow","italic":"false"}]'}} 16

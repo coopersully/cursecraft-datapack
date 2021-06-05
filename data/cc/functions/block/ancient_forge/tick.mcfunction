@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:marker,tag=ancient_forge,tag=!pedestal] at @s unless block ~ ~ ~ minecraft:dropper run function cc:block/ancient_forge/break
+execute as @e[type=minecraft:marker,tag=future_forge] at @s run function cc:block/ancient_forge/force/trigger

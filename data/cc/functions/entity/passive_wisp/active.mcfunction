@@ -1,0 +1,1 @@
+execute unless data entity @s {HurtTime:0s} run function cc:entity/passive_wisp/hurt

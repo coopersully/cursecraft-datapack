@@ -1,1 +1,0 @@
-execute as @s at @s unless block ~ ~ ~ minecraft:bedrock run function cc:blocks/ancient-forge/break

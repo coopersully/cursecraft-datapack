@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "player": {
+      "level": {
+        "min": 35,
+        "max": 39
+      }
+    }
+  }
+}

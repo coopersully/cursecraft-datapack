@@ -1,0 +1,2 @@
+execute as @a at @s if predicate cc:holding_ancient_forge anchored eyes positioned ^ ^ ^3 align xyz positioned ~0.5 ~ ~0.5 run function cc:item/ancient_forge/blueprint
+execute as @a if score @s cc.place_af matches 1 run scoreboard players reset @s cc.place_af

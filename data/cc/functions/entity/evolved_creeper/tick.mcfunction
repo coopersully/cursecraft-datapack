@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:creeper,tag=!not_evolved,tag=!cc_entity,sort=random] at @s run function cc:entity/evolved_creeper/summon

@@ -1,1 +1,0 @@
-execute at @a[nbt={Inventory:[{tag:{expMagnet:1b}}]}] run tp @e[type=minecraft:experience_orb,distance=1..8] ~ ~ ~ 

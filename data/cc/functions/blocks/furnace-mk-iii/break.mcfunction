@@ -1,4 +1,0 @@
-execute at @e[tag=FM3stable] unless block ~ ~ ~ minecraft:furnace run kill @e[distance=..2,sort=nearest,limit=1,tag=FM3deco]
-execute at @e[tag=FM3stable] unless block ~ ~ ~ minecraft:furnace run kill @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:furnace",Count:1b}},distance=..2]
-execute at @e[tag=FM3stable] unless block ~ ~ ~ minecraft:furnace run summon minecraft:item ~ ~ ~ {Tags:["FM3item"],PickupDelay:20,Item:{id:"minecraft:husk_spawn_egg",Count:1b,tag:{furnaceMk3:1b,display:{Name:"{\"text\":\"Furnace Mk. III\",\"italic\":\"false\"}"},CustomModelData:6605,EntityTag:{id:"minecraft:armor_stand",Small:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["FM3setupEntity"]}}}}
-execute as @e[tag=FM3stable] at @s unless block ~ ~ ~ minecraft:furnace run kill @s

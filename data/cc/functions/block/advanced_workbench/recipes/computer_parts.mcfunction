@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:dropper{Items:[{Count:1b,tag:{metal_scrap:1b}},{Count:1b,tag:{batteries:1b}},{Count:1b,tag:{tape:1b}}]} run data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:command_block",tag:{computer_parts:1b,CustomModelData:6617}}]}

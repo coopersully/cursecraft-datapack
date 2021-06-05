@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:marker,tag=speed_furnace4] at @s unless block ~ ~ ~ minecraft:furnace run function cc:block/speed_furnace4/break
+execute as @e[type=minecraft:marker,tag=speed_furnace4] at @s run data modify block ~ ~ ~ CookTimeTotal set value 9s

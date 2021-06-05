@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:villager,tag=!notBookSeller,sort=random] at @s run function cc:entities/librarian/spawn

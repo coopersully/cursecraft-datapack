@@ -1,0 +1,1 @@
+give @s minecraft:command_block{dragon_hide:1b,CustomModelData:6612,display:{Name:'{"italic":false,"color":"yellow","text":"Dragon Hide"}'}}

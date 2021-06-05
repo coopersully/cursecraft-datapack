@@ -1,1 +1,0 @@
-effect give @e[type=minecraft:iron_golem] minecraft:resistance 1 1 true

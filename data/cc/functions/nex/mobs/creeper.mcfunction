@@ -1,1 +1,0 @@
-execute in cc:nex as @e[type=minecraft:creeper,x=0,tag=!ccMob] run data merge entity @s {CustomName:'{"text":"Nexarian Creeper"}',Tags:["ccMob"],Fuse:5b,ExplosionRadius:20}

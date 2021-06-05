@@ -1,0 +1,1 @@
+give @s minecraft:command_block{CustomModelData:6609,essence:1b,voidian_essence:1b,display:{Name:'[{"text":"Voidian Essence","color":"aqua","italic":"false"}]'}} 1

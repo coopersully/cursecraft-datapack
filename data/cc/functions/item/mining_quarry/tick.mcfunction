@@ -1,0 +1,2 @@
+execute as @a at @s if predicate cc:holding_mining_quarry anchored eyes positioned ^ ^ ^3 run function cc:item/mining_quarry/blueprint
+execute as @a if score @s cc.place_mb matches 1 run scoreboard players reset @s cc.place_mb

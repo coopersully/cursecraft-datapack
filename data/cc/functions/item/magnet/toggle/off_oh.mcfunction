@@ -1,0 +1,2 @@
+item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick{CustomModelData:6606,magnet:1b,off:1b,display:{Name:'[{"text":"Magnet ","color":"white","italic":"false"},{"text":"[OFF]","color":"red"}]'}}
+scoreboard players reset @s cc.use_magnet

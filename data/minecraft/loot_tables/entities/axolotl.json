@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cc:essence/living",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.002
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cc:essence/aquatic",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.002
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Cursecraft » ","color":"yellow"},{"text":"Click here to confirm reinstallation of all assets.","color":"#00B3FF","clickEvent":{"action":"run_command","value":"/function cc:admin/reinstall"}}]

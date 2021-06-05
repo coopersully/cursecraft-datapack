@@ -1,0 +1,1 @@
+give @s minecraft:command_block{CustomModelData:6601,essence:1b,aquatic_essence:1b,display:{Name:'[{"text":"Aquatic Essence","color":"aqua","italic":"false"}]'}} 1

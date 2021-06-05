@@ -1,0 +1,2 @@
+execute as @a at @s if predicate cc:holding_speed_furnace3 anchored eyes positioned ^ ^ ^3 run function cc:item/speed_furnace3/blueprint
+execute as @a if score @s cc.place_sf3 matches 1 run scoreboard players reset @s cc.place_sf3

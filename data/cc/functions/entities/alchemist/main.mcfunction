@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:villager,tag=!notAlchemist,sort=random] at @s run function cc:entities/alchemist/spawn

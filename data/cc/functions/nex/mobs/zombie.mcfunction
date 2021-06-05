@@ -1,2 +1,0 @@
-execute in cc:nex as @e[type=minecraft:zombie,tag=!ccMob,x=0] run data merge entity @s {Silent:1b,Glowing:1b,Team:"RM",DeathLootTable:"minecraft:entities/memory",Tags:["rMemory","ccMob"],CustomName:'{"text":"Vivid Memory"}',ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:6603}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:20000000,ShowParticles:0b}]}
-effect give @e[tag=rMemory] minecraft:strength 1 1 true

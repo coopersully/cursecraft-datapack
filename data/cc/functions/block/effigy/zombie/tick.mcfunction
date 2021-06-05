@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:area_effect_cloud,tag=zombie_effigy,tag=not_placed] at @s run function cc:block/effigy/zombie/place
+execute as @e[type=minecraft:area_effect_cloud,tag=zombie_effigy] at @s unless block ~ ~ ~ minecraft:smooth_stone_slab[type=bottom,waterlogged=false] run function cc:block/effigy/zombie/break
+execute as @e[type=minecraft:zombie,tag=zombie_effigy] run data merge entity @s {Fire:0s}

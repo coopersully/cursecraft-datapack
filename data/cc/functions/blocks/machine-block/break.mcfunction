@@ -1,3 +1,0 @@
-execute at @e[tag=machineBlockPlaced] unless block ~ ~ ~ minecraft:smooth_stone run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:smooth_stone"}},distance=..2,limit=1,sort=nearest]
-execute at @e[tag=machineBlockPlaced] unless block ~ ~ ~ minecraft:smooth_stone run summon minecraft:item ~ ~ ~ {Tags:["MBitem"],PickupDelay:20,Item:{id:"minecraft:husk_spawn_egg",Count:1b,tag:{machineBlock:1b,display:{Name:"{\"text\":\"§rMachine Block\",\"italic\":\"false\"}"},CustomModelData:6609,EntityTag:{id:"minecraft:armor_stand",Small:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["machineBlock"]}}}}
-execute as @e[tag=machineBlockPlaced] at @s unless block ~ ~ ~ minecraft:smooth_stone run kill @s

@@ -5,37 +5,42 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{riftFragment:1b,CustomModelData:6610,Enchantments:[{id:\"minecraft:power\",lvl:1}],HideFlags:1,display:{Name:\"[{\\\"text\\\":\\\"Rift Fragment\\\",\\\"italic\\\":false}]\"}}"
-            }
-          ],
+          "type": "minecraft:loot_table",
+          "name": "cc:essence/malformed",
           "conditions": [
             {
-              "condition": "minecraft:random_chance_with_looting",
-              "chance": 1.0,
-              "looting_multiplier": 0.1
-            },
+              "condition": "minecraft:random_chance",
+              "chance": 0.002
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cc:essence/magic",
+          "conditions": [
             {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:alternative",
-                "terms": [
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "killer",
-                      "predicate": {
-                        "nbt": "{SelectedItem:{tag:{extractorBlade:1b}}}"
-                      }
-                    }
-                  }
-                ]
-              }
+              "condition": "minecraft:random_chance",
+              "chance": 0.002
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cc:essence/dark",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.002
             }
           ]
         }

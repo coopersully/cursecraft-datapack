@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:6606,magnet:1b,off:1b,display:{Name:'[{"text":"Magnet ","color":"white","italic":"false"},{"text":"[OFF]","color":"red"}]'}}

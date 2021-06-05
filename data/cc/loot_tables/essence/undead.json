@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6608,essence:1b,undead_essence:1b,display:{Name:'[{\"text\":\"Undead Essence\",\"color\":\"aqua\",\"italic\":\"false\"}]'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

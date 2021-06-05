@@ -1,0 +1,1 @@
+execute as @a if score @s cc.use_magnet matches 1.. run function cc:item/magnet/toggle/check

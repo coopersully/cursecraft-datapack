@@ -1,0 +1,2 @@
+execute in cursecraft:elisium as @e[type=minecraft:pig] at @s if predicate cc:in/biome/ethereal_mountains run function cc:entity/ethereal_phantom/summon
+execute as @e[type=minecraft:phantom,tag=ethereal_phantom] run data merge entity @s {Fire:0s}

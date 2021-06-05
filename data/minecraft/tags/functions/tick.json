@@ -1,5 +1,33 @@
 {
   "values": [
-    "cc:main"
+    "cc:tick",
+	"cc:block/advanced_workbench/tick",
+	"cc:block/ancient_forge/tick",
+	"cc:block/solar_furnace/tick",
+	"cc:block/speed_furnace/tick",
+	"cc:block/speed_furnace2/tick",
+	"cc:block/speed_furnace3/tick",
+	"cc:block/speed_furnace4/tick",
+	"cc:dimension/elisium/tick",
+	"cc:dimension/limbo/tick",
+	"cc:entity/blueprint/tick",
+	"cc:entity/ethereal_phantom/tick",
+	"cc:entity/evolved_creeper/tick",
+	"cc:entity/evolved_skeleton/tick",
+	"cc:entity/evolved_spider/tick",
+	"cc:entity/evolved_zombie/tick",
+	"cc:entity/friendly_wisp/tick",
+	"cc:entity/mysterious_orb/tick",
+	"cc:entity/passive_wisp/tick",
+	"cc:item/advanced_workbench/tick",
+	"cc:item/ancient_forge/tick",
+	"cc:item/flarrow/tick",
+	"cc:item/solar_furnace/tick",
+	"cc:item/speed_furnace/tick",
+	"cc:item/speed_furnace2/tick",
+	"cc:item/speed_furnace3/tick",
+	"cc:item/speed_furnace4/tick",
+	"cc:player/death/tick",
+	"cc:player/health/tick"
   ]
 }

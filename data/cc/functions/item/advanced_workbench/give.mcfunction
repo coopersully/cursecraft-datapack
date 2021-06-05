@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:6601,advanced_workbench:1b,display:{Name:'[{"text":"Advanced Workbench","italic":"false"}]'}} 1

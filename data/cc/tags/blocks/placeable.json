@@ -1,0 +1,23 @@
+{
+	"values": [
+		"minecraft:air",
+		"minecraft:bubble_column",
+		"minecraft:cave_air",
+		"minecraft:cobweb",
+		"minecraft:crimson_roots",
+		"minecraft:dead_bush",
+		"minecraft:fern",
+		"minecraft:grass",
+		"minecraft:kelp",
+		"minecraft:kelp_plant",
+		"minecraft:large_fern",
+		"minecraft:lava",
+		"minecraft:seagrass",
+		"minecraft:tall_grass",
+		"minecraft:tall_seagrass",
+		"minecraft:vine",
+		"minecraft:void_air",
+		"minecraft:warped_roots",
+		"minecraft:water"
+	]
+}

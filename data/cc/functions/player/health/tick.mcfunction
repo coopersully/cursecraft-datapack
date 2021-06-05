@@ -1,0 +1,1 @@
+execute as @a[tag=!respawning] run function cc:player/health/check

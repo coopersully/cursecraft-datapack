@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:6603,dark_forge:1b,display:{Name:'[{"text":"Dark Forge","italic":"false"}]'}} 1

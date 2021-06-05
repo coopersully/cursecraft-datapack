@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:6604,speed_furnace:1b,display:{Name:'[{"text":"Speed Furnace","italic":"false"}]'}} 1

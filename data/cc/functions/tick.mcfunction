@@ -1,0 +1,1 @@
+execute as @a[tag=!processed] at @s run function cc:process

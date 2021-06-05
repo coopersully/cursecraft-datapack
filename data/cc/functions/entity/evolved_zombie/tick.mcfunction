@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:zombie,tag=!not_evolved,tag=!cc_entity,sort=random] at @s run function cc:entity/evolved_zombie/summon
+execute as @e[type=minecraft:zombie,tag=evolved] run data merge entity @s {Fire:0s}
